@@ -45,7 +45,7 @@ print('HellaSketchy#0777')
 
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Loading PARTICLESX","all")
 wait(2.0)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I lowkey forgot what to put here...","all")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Updated!","all")
 wait(0.5)
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Done.","all")
 wait(0.5)
