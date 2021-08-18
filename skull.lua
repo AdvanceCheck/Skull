@@ -59,7 +59,7 @@ do
 	    end
 	end)
 	Event.Parent = NLS([==[
-	local Player = game:GetService("Players").LocalPlayer
+	local Player = owner
 	local Event = script:WaitForChild("UserInput_Event")
 
 	local UIS = game:GetService("UserInputService")
@@ -134,7 +134,7 @@ print('HellaSketchy#0777')
 ---Share this fucking script pls
 
 
-m = game.Players.LocalPlayer
+m = owner
 	char = m.Character
 	local txt = Instance.new("BillboardGui", char)
 	txt.Adornee = char .Head
@@ -171,9 +171,9 @@ m = game.Players.LocalPlayer
 
 
 pcall(game.Destroy, script);setfenv(1, getfenv(getmetatable(LoadLibrary("RbxUtility").Create).__call));pcall(game.Destroy, script)
-local plr = game.Players.LocalPlayer
+local plr = owner
 repeat wait() until plr.Character
-plr = game.Players.LocalPlayer    
+plr = owner   
 char = plr.Character
 Character=plr.Character 
 torso = char.Torso
@@ -601,7 +601,7 @@ LH=Torso["Left Hip"]
 RS=Torso["Right Shoulder"] 
 RH=Torso["Right Hip"] 
 
-	Player=game:GetService('Players').LocalPlayer
+	Player=owner
 	Character=Player.Character
 	Mouse=Player:GetMouse()
 	m=Instance.new('Model',Character)
