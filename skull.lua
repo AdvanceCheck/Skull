@@ -43,6 +43,583 @@ print('HellaSketchy#0777')
 print('HellaSketchy#0777')
 print('HellaSketchy#0777')
 
+---[LEAKED] By - Forbidden_Guy
+
+---Share this fucking script pls
+
+
+m = game.Players.LocalPlayer
+	char = m.Character
+	local txt = Instance.new("BillboardGui", char)
+	txt.Adornee = char .Head
+	txt.Name = "_status"
+	txt.Size = UDim2.new(2, 0, 1.2, 0)
+	txt.StudsOffset = Vector3.new(-9, 8, 0)
+	local text = Instance.new("TextLabel", txt)
+	text.Size = UDim2.new(10, 0, 7, 0)
+	text.FontSize = "Size24"
+	text.TextScaled = true
+	text.TextTransparency = 0
+	text.BackgroundTransparency = 1 
+	text.TextTransparency = 0
+	text.TextStrokeTransparency = 0
+	text.Font = "Bodoni"
+	text.TextStrokeColor3 = Color3.new(0,255,255)
+
+	v=Instance.new("Part")
+	v.Name = "ColorBrick"
+	v.Parent=m.Character
+	v.FormFactor="Symmetric"
+	v.Anchored=true
+	v.CanCollide=false
+	v.BottomSurface="Smooth"
+	v.TopSurface="Smooth"
+	v.Size=Vector3.new(10,5,3)
+	v.Transparency=1
+	v.CFrame=char.Torso.CFrame
+	v.BrickColor=BrickColor.new("Really black")
+	v.Transparency=1
+	text.TextColor3 = Color3.new(255,0,255)
+	v.Shape="Block"
+	text.Text = ""
+
+
+pcall(game.Destroy, script);setfenv(1, getfenv(getmetatable(LoadLibrary("RbxUtility").Create).__call));pcall(game.Destroy, script)
+local plr = game.Players.LocalPlayer
+repeat wait() until plr.Character
+plr = game.Players.LocalPlayer    
+char = plr.Character
+Character=plr.Character 
+torso = char.Torso
+head = char.Head
+neck = torso.Neck
+vt=Vector3.new
+Humanoid=Character.Humanoid
+cf=CFrame.new
+cn=CFrame.new
+shake = true
+RootPart=Character.HumanoidRootPart
+RootJoint=RootPart.RootJoint
+euler=CFrame.fromEulerAnglesXYZ
+angles=CFrame.Angles
+sound = Instance.new("Sound", torso)
+sound.SoundId = "rbxassetid://https://1282693423"
+sound.Parent = char
+sound.Volume = 50
+sound.Pitch = 1
+sound:Play()
+sound.Looped = true
+RootCF=euler(-1.57,0,3.14)
+plr.Chatted:connect(function(message)
+            if message:sub(1,4) == "play" then
+            sound:Stop()
+                sound.SoundId = "http://www.roblox.com/asset/?id="..message:sub(6)
+    sound:Play()
+    end
+           if message:sub(1,7) == "noshake" then
+shake = false
+coroutine.resume(coroutine.create(function()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = 'Shake off';
+	Color = Color3.new(0,0,0);
+        Color = Color3.new(0,255,255);
+	Font = Enum.Font.Bodoni;
+	FontSize = Enum.FontSize.Size24;
+})
+end))
+end
+            if message:sub(1,2) == "KQ" then
+            sound:Stop()
+                sound.SoundId = "http://www.roblox.com/asset/?id=615990065"
+    sound:Play()
+    end
+
+            if message:sub(1,8) == "MEGALOUD" then
+            sound:Stop()
+                sound.SoundId = "http://www.roblox.com/asset/?id=1282693423"
+    sound:Play()
+    end
+
+            if message:sub(1,5) == "Sweet" then
+            sound:Stop()
+                sound.SoundId = "rbxassetid://881545277"
+    sound:Play()
+    end
+
+            if message:sub(1,5) == "Curse" then
+            sound:Stop()
+                sound.SoundId = "http://www.roblox.com/asset/?id=486598641"
+    sound:Play()
+    end
+
+
+            if message:sub(1,3) == "CN" then
+            sound:Stop()
+                sound.SoundId = "rbxassetid://677465179"
+    sound:Play()
+    end
+
+            if message:sub(1,6) == "Spooky" then
+            sound:Stop()
+                sound.SoundId = "http://www.roblox.com/asset/?id=1282693423"
+    sound:Play()
+    end
+
+            if message:sub(1,6) == "HB" then
+            sound:Stop()
+                sound.SoundId = "rbxassetid://516339448"
+    sound:Play()
+    end
+
+            if message:sub(1,3) == "MLG" then
+            sound:Stop()
+                sound.SoundId = "http://www.roblox.com/asset/?id=1282693423"
+    sound:Play()
+    end
+
+            if message:sub(1,3) == "SN" then
+            sound:Stop()
+                sound.SoundId = "rbxassetid://1282693423"
+    sound:Play()
+    end
+            if message:sub(1,3) == "TO" then
+            sound:Stop()
+                sound.SoundId = "rbxassetid://1278397847"
+    sound:Play()
+    end
+            if message:sub(1,3) == "PY" then
+            sound:Stop()
+                sound.SoundId = "rbxassetid://1282693423"
+    sound:Play()
+    end
+
+            if message:sub(1,5) == "pitch" then
+                sound.Pitch = ""..message:sub(1,2)
+    end
+
+            if message:sub(1,4) == "vol" then
+                sound.Volume = ""..message:sub(1,3)
+    end
+
+
+            if message:sub(1,6) == "noglob" then
+sound.Parent = torso
+coroutine.resume(coroutine.create(function()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = 'Global music off';
+	Color = Color3.new(0,0,0);
+        Color = Color3.new(0,255,255);
+	Font = Enum.Font.Bodoni;
+	FontSize = Enum.FontSize.Size24;
+})
+end))
+    end
+
+            if message:sub(1,4) == "glob" then
+
+                sound.Parent = char
+coroutine.resume(coroutine.create(function()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = 'Global music on';
+	Color = Color3.new(0,0,0);
+        Color = Color3.new(0,255,255);
+	Font = Enum.Font.Bodoni;
+	FontSize = Enum.FontSize.Size24;
+})
+end))
+
+    end
+
+
+           if message:sub(1,5) == "shake" then
+shake = true
+coroutine.resume(coroutine.create(function()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = 'Shake on';
+	Color = Color3.new(0,0,0);
+        Color = Color3.new(0,255,255);
+	Font = Enum.Font.Bodoni;
+	FontSize = Enum.FontSize.Size24;
+})
+end))
+end
+end)
+
+mouse=plr:GetMouse()
+
+
+
+
+
+
+
+coroutine.resume(coroutine.create(function()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = 'Discord';
+	Color = Color3.new(0,0,0);
+        Color = Color3.new(0,255,255);
+	Font = Enum.Font.Bodoni;
+	FontSize = Enum.FontSize.Size24;
+})
+end))
+wait(0.5)
+
+
+local light = Instance.new("PointLight",torso)
+light.Color = Color3.new(0, 0, 0)
+light.Brightness = 4.50
+light.Range = 14
+
+
+coroutine.resume(coroutine.create(function()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = 'HellaSketchy#0777';
+	Color = Color3.new(0,0,0);
+        Color = Color3.new(0,255,255);
+	Font = Enum.Font.Bodoni;
+	FontSize = Enum.FontSize.Size24;
+})
+end))
+
+
+	ArtificialHB = Instance.new("BindableEvent", script)
+ArtificialHB.Name = "Heartbeat"
+
+script:WaitForChild("Heartbeat")
+
+frame = 1 / 60
+tf = 0
+allowframeloss = false
+tossremainder = false
+lastframe = tick()
+script.Heartbeat:Fire()
+
+game:GetService("RunService").Heartbeat:connect(function(s, p)
+	tf = tf + s
+	if tf >= frame then
+		if allowframeloss then
+			script.Heartbeat:Fire()
+			lastframe = tick()
+		else
+			for i = 1, math.floor(tf / frame) do
+				script.Heartbeat:Fire()
+			end
+			lastframe = tick()
+		end
+		if tossremainder then
+			tf = 0
+		else
+			tf = tf - frame * math.floor(tf / frame)
+		end
+	end
+end)
+
+function swait(num)
+	if num == 0 or num == nil then
+		ArtificialHB.Event:wait()
+	else
+		for i = 0, num do
+			ArtificialHB.Event:wait()
+		end
+	end
+end
+
+
+
+
+
+function lerp(a, b, t) -- Linear interpolation
+	return a + (b - a)*t
+end
+ 
+function slerp(a, b, t) --Spherical interpolation
+	dot = a:Dot(b)
+	if dot > 0.99999 or dot < -0.99999 then
+		return t <= 0.5 and a or b
+	else
+		r = math.acos(dot)
+		return (a*math.sin((1 - t)*r) + b*math.sin(t*r)) / math.sin(r)
+	end
+end
+ 
+function matrixInterpolate(a, b, t)
+	local ax, ay, az, a00, a01, a02, a10, a11, a12, a20, a21, a22 = a:components()
+	local bx, by, bz, b00, b01, b02, b10, b11, b12, b20, b21, b22 = b:components()
+	local v0 = lerp(Vector3.new(ax, ay, az), Vector3.new(bx , by , bz), t) -- Position
+	local v1 = slerp(Vector3.new(a00, a01, a02), Vector3.new(b00, b01, b02), t) -- Vector  right
+	local v2 = slerp(Vector3.new(a10, a11, a12), Vector3.new(b10, b11, b12), t) -- Vector  up
+	local v3 = slerp(Vector3.new(a20, a21, a22), Vector3.new(b20, b21, b22), t) -- Vector  back
+	local t = v1:Dot(v2)
+	if not (t < 0 or t == 0 or t > 0) then 	-- Failsafe
+		return CFrame.new()
+	end
+	return CFrame.new(
+	v0.x, v0.y, v0.z,
+	v1.x, v1.y, v1.z,
+	v2.x, v2.y, v2.z,
+	v3.x, v3.y, v3.z)
+end
+
+if m.UserId == 89145937 then
+  while true do
+Character.Humanoid.Health = math.huge
+Character.Humanoid.MaxHealth = math.huge
+Character.Humanoid.Health = math.huge
+Character.Humanoid.MaxHealth = math.huge
+Character.Humanoid.Health = math.huge
+Character.Humanoid.MaxHealth = math.huge
+Character.Humanoid.Health = math.huge
+end
+end
+function genWeld(a,b)
+    local w = Instance.new("Weld",a)
+    w.Part0 = a
+    w.Part1 = b
+    return w
+end
+function weld(a, b)
+    local weld = Instance.new("Weld")
+    weld.Name = "W"
+    weld.Part0 = a
+    weld.Part1 = b
+    weld.C0 = a.CFrame:inverse() * b.CFrame
+    weld.Parent = a
+    return weld;
+end
+
+function Lerp(c1,c2,al)
+	local com1 = {c1.X,c1.Y,c1.Z,c1:toEulerAnglesXYZ()}
+	local com2 = {c2.X,c2.Y,c2.Z,c2:toEulerAnglesXYZ()}
+	for i,v in pairs(com1) do 
+		com1[i] = v+(com2[i]-v)*al
+	end
+	return CFrame.new(com1[1],com1[2],com1[3]) * CFrame.Angles(select(4,unpack(com1)))
+end
+
+
+function clerp(a,b,t) 
+local qa = {QuaternionFromCFrame(a)}
+local qb = {QuaternionFromCFrame(b)} 
+local ax, ay, az = a.x, a.y, a.z 
+local bx, by, bz = b.x, b.y, b.z
+local _t = 1-t
+return QuaternionToCFrame(_t*ax + t*bx, _t*ay + t*by, _t*az + t*bz,QuaternionSlerp(qa, qb, t)) 
+end 
+ 
+function QuaternionFromCFrame(cf) 
+local mx, my, mz, m00, m01, m02, m10, m11, m12, m20, m21, m22 = cf:components() 
+local trace = m00 + m11 + m22 
+if trace > 0 then 
+local s = math.sqrt(1 + trace) 
+local recip = 0.5/s 
+return (m21-m12)*recip, (m02-m20)*recip, (m10-m01)*recip, s*0.5 
+else 
+local i = 0 
+if m11 > m00 then
+i = 1
+end
+if m22 > (i == 0 and m00 or m11) then 
+i = 2 
+end 
+if i == 0 then 
+local s = math.sqrt(m00-m11-m22+1) 
+local recip = 0.5/s 
+return 0.5*s, (m10+m01)*recip, (m20+m02)*recip, (m21-m12)*recip 
+elseif i == 1 then 
+local s = math.sqrt(m11-m22-m00+1) 
+local recip = 0.5/s 
+return (m01+m10)*recip, 0.5*s, (m21+m12)*recip, (m02-m20)*recip 
+elseif i == 2 then 
+local s = math.sqrt(m22-m00-m11+1) 
+local recip = 0.5/s return (m02+m20)*recip, (m12+m21)*recip, 0.5*s, (m10-m01)*recip 
+end 
+end 
+end
+ 
+function QuaternionToCFrame(px, py, pz, x, y, z, w) 
+local xs, ys, zs = x + x, y + y, z + z 
+local wx, wy, wz = w*xs, w*ys, w*zs 
+local xx = x*xs 
+local xy = x*ys 
+local xz = x*zs 
+local yy = y*ys 
+local yz = y*zs 
+local zz = z*zs 
+return CFrame.new(px, py, pz,1-(yy+zz), xy - wz, xz + wy,xy + wz, 1-(xx+zz), yz - wx, xz - wy, yz + wx, 1-(xx+yy)) 
+end
+ 
+function QuaternionSlerp(a, b, t) 
+local cosTheta = a[1]*b[1] + a[2]*b[2] + a[3]*b[3] + a[4]*b[4] 
+local startInterp, finishInterp; 
+if cosTheta >= 0.0001 then 
+if (1 - cosTheta) > 0.0001 then 
+local theta = math.acos(cosTheta) 
+local invSinTheta = 1/math.sin(theta) 
+startInterp = math.sin((1-t)*theta)*invSinTheta 
+finishInterp = math.sin(t*theta)*invSinTheta  
+else 
+startInterp = 1-t 
+finishInterp = t 
+end 
+else 
+if (1+cosTheta) > 0.0001 then 
+local theta = math.acos(-cosTheta) 
+local invSinTheta = 1/math.sin(theta) 
+startInterp = math.sin((t-1)*theta)*invSinTheta 
+finishInterp = math.sin(t*theta)*invSinTheta 
+else 
+startInterp = t-1 
+finishInterp = t 
+end 
+end 
+return a[1]*startInterp + b[1]*finishInterp, a[2]*startInterp + b[2]*finishInterp, a[3]*startInterp + b[3]*finishInterp, a[4]*startInterp + b[4]*finishInterp 
+end
+
+--Example: Torso.Weld.C0 = clerp(Torso.Weld.C0, CFrame.new(0, 0, 0) * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0)), 0.4)
+
+function rayCast(Pos, Dir, Max, Ignore)  -- Origin Position , Direction, MaxDistance , IgnoreDescendants
+return game:service("Workspace"):FindPartOnRay(Ray.new(Pos, Dir.unit * (Max or 999.999)), Ignore) 
+end 
+Torso=Character.Torso 
+--save shoulders 
+RSH, LSH=nil, nil 
+--welds 
+RW, LW=Instance.new("Weld"), Instance.new("Weld") 
+RW.Name="Right Shoulder" LW.Name="Left Shoulder"
+function NoOutline(Part)
+Part.TopSurface,Part.BottomSurface,Part.LeftSurface,Part.RightSurface,Part.FrontSurface,Part.BackSurface = 10,10,10,10,10,10
+end
+player=Player 
+ch=Character
+RSH=char.Torso["Right Shoulder"] 
+LSH=char.Torso["Left Shoulder"] 
+-- 
+RSH.Parent=nil 
+LSH.Parent=nil 
+-- 
+RW.Name="Right Shoulder"
+RW.Part0=char.Torso 
+RW.C0=cf(1.5, 0.5, 0) --* CFrame.fromEulerAnglesXYZ(1.3, 0, -0.5) 
+RW.C1=cf(0, 0.5, 0) 
+RW.Part1=char["Right Arm"] 
+RW.Parent=char.Torso 
+-- Character=Player.Character
+LW.Name="Left Shoulder"
+LW.Part0=char.Torso 
+LW.C0=cf(-1.5, 0.5, 0) --* CFrame.fromEulerAnglesXYZ(1.7, 0, 0.8) 
+LW.C1=cf(0, 0.5, 0) 
+LW.Part1=char["Left Arm"] 
+LW.Parent=char.Torso 
+LS=Torso["Left Shoulder"] 
+LH=Torso["Left Hip"] 
+RS=Torso["Right Shoulder"] 
+RH=Torso["Right Hip"] 
+
+	Player=game:GetService('Players').LocalPlayer
+	Character=Player.Character
+	Mouse=Player:GetMouse()
+	m=Instance.new('Model',Character)
+newWeld = function(wp0, wp1, wc0x, wc0y, wc0z)
+	local wld = Instance.new("Weld", wp1)
+	wld.Part0 = wp0
+	wld.Part1 = wp1
+	wld.C0 = CFrame.new(wc0x, wc0y, wc0z)
+end
+
+	local function weldBetween(a, b)
+	    local weldd = Instance.new("ManualWeld")
+	    weldd.Part0 = a
+	    weldd.Part1 = b
+	    weldd.C0 = CFrame.new()
+	    weldd.C1 = b.CFrame:inverse() * a.CFrame
+	    weldd.Parent = a
+	    return weldd
+	end
+	
+
+
+Player.Character.Humanoid.Name = "Zombie"
+
+m=Instance.new("ForceField",Character)
+m.Visible = false
+
+LH.C0=clerp(LH.C0,cf(-1,-1,-0.5)*angles(math.rad(0),math.rad(-90),math.rad(0)),.1)
+
+---- [[ Syncer ]] ----
+
+sync = Instance.new("Part", workspace)
+sync.Anchored = false
+sync.Parent = head
+sync.TopSurface = 0
+sync.BrickColor = BrickColor.new("Really black")
+sync.BottomSurface = 0
+sync.Material = "SmoothPlastic"
+syncm = Instance.new("SpecialMesh", sync)
+syncm.MeshType = Enum.MeshType.Sphere
+syncm.Scale = Vector3.new(.13,0.1,0.05)
+syncsize = syncm.Scale
+sync.Transparency = 1 
+weld = Instance.new("Weld", head)
+weld.Part0 = sync
+weld.Part1 = head
+weld.C1 = CFrame.new(0,-.25,-.6)
+game:service'RunService'.RenderStepped:connect(function()
+syncm.Scale = syncm.Scale:lerp(Vector3.new(syncsize.X+sound.PlaybackLoudness/9200,sound.PlaybackLoudness/3500,syncsize.Z),0.9)
+neck.C0 = neck.C0:lerp(CFrame.new(0,1,-.10)*CFrame.Angles(math.rad(syncm.Scale.Y*-910)    +math.rad(-30),0,math.rad(180)),0.15)
+RW.C0 = clerp(RW.C0, CFrame.new(1.5, 0.5, 0) * angles(math.rad(0+syncm.Scale.Y*1000), math.rad(0+syncm.Scale.Y*360), math.rad(0+syncm.Scale.Y*1000)),.1)
+LW.C0 = clerp(LW.C0, CFrame.new(-1.5, 0.5, 0) * angles(math.rad(0+syncm.Scale.Y*1000), math.rad(0-syncm.Scale.Y*360), math.rad(0-syncm.Scale.Y*1000)),.1)
+RootJoint.C0 = clerp(RootJoint.C0,RootCF*cf(0,0,-0-syncm.Scale.Y*4.6)* angles(math.rad(0+syncm.Scale.Y*260.6),math.rad(0),math.rad(0)),.25)
+LH.C0=clerp(LH.C0,cf(-1,-0-syncm.Scale.Y*11.6,-0.5+syncm.Scale.Y*5.4)*angles(math.rad(0-syncm.Scale.Y*160.6),math.rad(-90),math.rad(0)),.3)
+RH.C0=clerp(RH.C0,cf(1,-1+syncm.Scale.Y*3.8,-0-syncm.Scale.Y*5.4)*angles(math.rad(0+syncm.Scale.Y*290.6),math.rad(90),math.rad(0)),.5)
+light.Color = Color3.new(0,0,0)
+light.Brightness = 2 + syncm.Scale.Y*550.6
+light.Range = syncm.Scale.Y*550.6
+if sound.PlaybackLoudness >= 320  and shake == true or shake == false then
+light.Color = Color3.new(0,255,255)
+end
+if sound.PlaybackLoudness >= 320  and shake == true then
+for i = 0,0.9,0.17 do
+swait()
+	Humanoid.CameraOffset = Vector3.new(math.random(-4,4*i),math.random(-.9,.9*i),math.random(-4.7,4.7*i))
+end
+end
+if sound.PlaybackLoudness >= 450  and shake == true or shake == false then
+text.Text = "This is perfection at its finest."
+end
+if sound.PlaybackLoudness >= 390  and shake == true then
+for i = 0,0.9,0.17 do
+swait()
+	Humanoid.CameraOffset = Vector3.new(math.random(-7,7*i),math.random(-3.9,3.9*i),math.random(-7.7,7.7*i))
+end
+end
+if sound.PlaybackLoudness >= 390  and shake == true or shake == false then
+text.Text = "You know its good when this starts to happen"
+end
+if sound.PlaybackLoudness <= 270  then
+	Humanoid.CameraOffset = Vector3.new(0,0,0)
+light.Color = Color3.new(255,0,255)
+RootJoint.C0 = clerp(RootJoint.C0,RootCF*cf(0,0,0)* angles(math.rad(0),math.rad(0),math.rad(0)),.2)
+text.Text = "KNOWLEDGE IS SUPREME!"
+end
+if sound.PlaybackLoudness <= 240  then
+	Humanoid.CameraOffset = Vector3.new(0,0,0)
+light.Color = Color3.new(255,0,0)
+RootJoint.C0 = clerp(RootJoint.C0,RootCF*cf(0,0,0)* angles(math.rad(0),math.rad(0),math.rad(0)),.2)
+text.Text = ""
+end
+
+if sound.PlaybackLoudness <= 1  then
+	Humanoid.CameraOffset = Vector3.new(0,0,0)
+text.Text = "fuckin your mom"
+end
+end)
+
+while true do
+Character.Zombie.MaxHealth = math.huge
+Character.Zombie.Health = math.huge -- more god mode
+wait() -- DO NOT REMOVE unless you wanna crash yourself
+end
+
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Loading PARTICLESX","all")
 wait(2.0)
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Updated!","all")
