@@ -1,49 +1,34 @@
 
 
 --[[
-	made by HellaSketchy and xyz
+	made by pery and xyz
 ]]
 
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
-print('HellaSketchy#0777')
+
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
+print('pery#0001') 
 
 
 
@@ -54,13 +39,13 @@ game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
 wait(0.5)
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Done.","all")
 wait(0.5)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Created by HellaSketchy","all")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Created by pery","all")
 game.Players.LocalPlayer.Chatted:connect(function(cmd)
 end)
  
 game.StarterGui:SetCore("SendNotification", {
             Title = "PARTICLESX";
-            Text = "Thanks for buying PARTICLESX!";
+            Text = "Thanks for using PARTICLESX!";
             })
 
   
